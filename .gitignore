@@ -160,3 +160,5 @@ cython_debug/
 #.idea/
 
 artifacts/*
+
+git rm --cached "Unconfirmed 842514.crdownload"
