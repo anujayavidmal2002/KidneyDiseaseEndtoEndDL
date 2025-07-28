@@ -1,182 +1,151 @@
-# Kidney-Disease-Classification-MLflow-DVC
+# Kidney Disease Classification - End-to-End Deep Learning Pipeline
 
+An end-to-end deep learning pipeline for kidney disease classification from CT scan images using TensorFlow, with MLflow experiment tracking and DVC for reproducible ML workflows. Features automated data ingestion, model training with transfer learning, and comprehensive evaluation in a production-ready architecture.
 
-## Workflows
+## Overview
 
-1. Update config.yaml
-2. Update secrets.yaml [Optional]
-3. Update params.yaml
-4. Update the entity
-5. Update the configuration manager in src config
-6. Update the components
-7. Update the pipeline 
-8. Update the main.py
-9. Update the dvc.yaml
-10. app.py
+This project demonstrates a complete machine learning pipeline for medical image classification, specifically focusing on kidney disease detection from CT scan images. The system is built using modern MLOps practices, ensuring reproducibility, scalability, and maintainability.
 
-# How to run?
-### STEPS:
+## Features
 
-Clone the repository
+- **Deep Learning Classification**: CNN-based image classification using TensorFlow and Keras
+- **MLOps Integration**: Complete pipeline with DVC for version control and reproducibility  
+- **Experiment Tracking**: MLflow integration with DagHub for model versioning and metrics logging
+- **Transfer Learning**: Leverages pre-trained models for improved performance
+- **Modular Architecture**: Well-structured codebase with separate configuration management
+- **Automated Workflows**: End-to-end pipeline from data ingestion to model evaluation
 
-```bash
-https://github.com/anujayavidmal2002/KidneyDiseaseEndtoEndDL
+## Technology Stack
+
+- **Machine Learning**: TensorFlow, Keras
+- **Experiment Tracking**: MLflow, DagHub
+- **Pipeline Management**: DVC (Data Version Control)
+- **Development Environment**: Python, Jupyter Notebooks
+- **Configuration Management**: YAML-based configuration files
+
+## Project Structure
+
 ```
-### STEP 01- Create a conda environment after opening the repository
-
-```bash
-conda create -n cnncls python=3.8 -y
+KidneyDiseaseEndtoEndDL/
+├── src/
+│   └── cnnClassifier/
+│       ├── components/          # Core ML components
+│       ├── config/             # Configuration management
+│       ├── constants/          # Project constants
+│       ├── entity/            # Data classes and entities
+│       ├── pipeline/          # Pipeline stages
+│       └── utils/             # Utility functions
+├── research/                   # Jupyter notebooks for experimentation
+├── artifacts/                  # Generated artifacts and models
+├── config/                    # Configuration files
+├── dvc.yaml                   # DVC pipeline definition
+└── params.yaml               # Model parameters
 ```
 
+## Pipeline Stages
+
+### 1. Data Ingestion
+- Downloads and extracts CT scan image datasets
+- Organizes data into proper directory structure
+- Validates data integrity
+
+### 2. Base Model Preparation  
+- Configures pre-trained CNN models
+- Sets up transfer learning architecture
+- Prepares model for fine-tuning
+
+### 3. Model Training
+- Implements data augmentation techniques
+- Fine-tunes pre-trained models on kidney disease data
+- Saves trained model artifacts
+
+### 4. Model Evaluation
+- Evaluates model performance on validation data
+- Logs metrics and parameters to MLflow
+- Generates comprehensive evaluation reports
+
+## Getting Started
+
+### Prerequisites
+- Python 3.8+
+- Git
+- DVC
+
+### Installation
+
+1. Clone the repository:
 ```bash
-conda activate cnncls
+git clone https://github.com/anujayavidmal2002/KidneyDiseaseEndtoEndDL.git
+cd KidneyDiseaseEndtoEndDL
 ```
 
+2. Create and activate virtual environment:
+```bash
+python -m venv kidney
+kidney\Scripts\activate  # On Windows
+```
 
-### STEP 02- install the requirements
+3. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
+4. Configure MLflow tracking (optional):
 ```bash
-# Finally run the following command
-python app.py
+# Set your DagHub credentials
+export MLFLOW_TRACKING_URI="https://dagshub.com/your-username/KidneyDiseaseEndtoEndDL.mlflow"
+export MLFLOW_TRACKING_USERNAME="your-username"  
+export MLFLOW_TRACKING_PASSWORD="your-token"
 ```
 
-Now,
+### Running the Pipeline
+
+Execute the complete pipeline using DVC:
 ```bash
-open up you local host and port
+dvc repro
 ```
 
-
-
-
-
-
-## MLflow
-
-- [Documentation](https://mlflow.org/docs/latest/index.html)
-
-
-
-##### cmd
-- mlflow ui
-
-### dagshub
-[dagshub](https://dagshub.com/)
-
-MLFLOW_TRACKING_URI=https://dagshub.com/anujayavidmal2002/KidneyDiseaseEndtoEndDL.mlflow \
-MLFLOW_TRACKING_USERNAME=anujayavidmal2002 \
-MLFLOW_TRACKING_PASSWORD=f244f52664f2897aa9bebf5839af549addd7f62f \
-python script.py
-
-Run this to export as env variables:
-
+Or run individual stages:
 ```bash
-
-export MLFLOW_TRACKING_URI=https://dagshub.com/anujayavidmal2002/KidneyDiseaseEndtoEndDL.mlflow
-
-export MLFLOW_TRACKING_USERNAME=anujayavidmal2002
-
-export MLFLOW_TRACKING_PASSWORD=f244f52664f2897aa9bebf5839af549addd7f62f
-
+python src/cnnClassifier/pipeline/stage_01_data_ingestion.py
+python src/cnnClassifier/pipeline/stage_02_prepare_base_model.py
+python src/cnnClassifier/pipeline/stage_03_model_training.py
+python src/cnnClassifier/pipeline/stage_04_model_evaluation.py
 ```
 
+## Configuration
 
-### DVC cmd
+The project uses YAML-based configuration management:
 
-1. dvc init
-2. dvc repro
-3. dvc dag
+- `config/config.yaml`: Main configuration file
+- `params.yaml`: Model hyperparameters and training settings
+- `dvc.yaml`: Pipeline stage definitions
 
+## Experiment Tracking
 
-## About MLflow & DVC
+All experiments are tracked using MLflow and can be viewed on DagHub. The system logs:
+- Model parameters and hyperparameters
+- Training and validation metrics
+- Model artifacts and versions
 
-MLflow
+## Model Performance
 
- - Its Production Grade
- - Trace all of your expriements
- - Logging & taging your model
+The model uses transfer learning with pre-trained CNN architectures to achieve optimal performance on kidney disease classification tasks. Detailed performance metrics are available in the MLflow tracking interface.
 
+## Contributing
 
-DVC 
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/new-feature`)
+3. Commit changes (`git commit -am 'Add new feature'`)
+4. Push to branch (`git push origin feature/new-feature`)
+5. Create a Pull Request
 
- - Its very lite weight for POC only
- - lite weight expriements tracker
- - It can perform Orchestration (Creating Pipelines)
+## License
 
+This project is licensed under the MIT License - see the LICENSE file for details.
 
+## Acknowledgments
 
-# AWS-CICD-Deployment-with-Github-Actions
-
-## 1. Login to AWS console.
-
-## 2. Create IAM user for deployment
-
-	#with specific access
-
-	1. EC2 access : It is virtual machine
-
-	2. ECR: Elastic Container registry to save your docker image in aws
-
-
-	#Description: About the deployment
-
-	1. Build docker image of the source code
-
-	2. Push your docker image to ECR
-
-	3. Launch Your EC2 
-
-	4. Pull Your image from ECR in EC2
-
-	5. Lauch your docker image in EC2
-
-	#Policy:
-
-	1. AmazonEC2ContainerRegistryFullAccess
-
-	2. AmazonEC2FullAccess
-
-	
-## 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/chicken
-
-	
-## 4. Create EC2 machine (Ubuntu) 
-
-## 5. Open EC2 and Install docker in EC2 Machine:
-	
-	
-	#optinal
-
-	sudo apt-get update -y
-
-	sudo apt-get upgrade
-	
-	#required
-
-	curl -fsSL https://get.docker.com -o get-docker.sh
-
-	sudo sh get-docker.sh
-
-	sudo usermod -aG docker ubuntu
-
-	newgrp docker
-	
-# 6. Configure EC2 as self-hosted runner:
-    setting>actions>runner>new self hosted runner> choose os> then run command one by one
-
-
-# 7. Setup github secrets:
-
-    AWS_ACCESS_KEY_ID=
-
-    AWS_SECRET_ACCESS_KEY=
-
-    AWS_REGION = us-east-1
-
-    AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
-
-    ECR_REPOSITORY_NAME = simple-app
-
+- Medical imaging datasets used for training
+- TensorFlow and Keras communities
+- MLflow and DVC development
