@@ -138,3 +138,158 @@ x==========x:]
 [2025-07-28 11:52:11,260: INFO: main: >>>>>> stage Training completed <<<<<<
 
 x==========x:]
+[2025-07-28 12:39:24,660: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2025-07-28 12:39:24,669: INFO: common: yaml file: params.yaml loaded successfully:]
+[2025-07-28 12:39:24,671: INFO: common: created directory at: artifacts:]
+[2025-07-28 12:39:33,413: INFO: common: json file saved at: scores.json:]
+[2025-07-28 12:39:36,749: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.:]
+[2025-07-28 12:39:37,252: INFO: builder_impl: Assets written to: C:\Users\ASUS\AppData\Local\Temp\tmp8dywlemw\model\data\model\assets:]
+[2025-07-28 12:47:23,288: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2025-07-28 12:47:23,290: INFO: common: yaml file: params.yaml loaded successfully:]
+[2025-07-28 12:47:23,292: INFO: common: created directory at: artifacts:]
+[2025-07-28 12:47:31,028: INFO: common: json file saved at: scores.json:]
+[2025-07-28 12:47:33,281: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.:]
+[2025-07-28 12:47:33,812: INFO: builder_impl: Assets written to: C:\Users\ASUS\AppData\Local\Temp\tmp0y7ne4h8\model\data\model\assets:]
+[2025-07-28 12:51:13,427: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2025-07-28 12:51:13,430: INFO: common: yaml file: params.yaml loaded successfully:]
+[2025-07-28 12:51:13,430: INFO: common: created directory at: artifacts:]
+[2025-07-28 12:52:12,210: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2025-07-28 12:52:12,213: INFO: common: yaml file: params.yaml loaded successfully:]
+[2025-07-28 12:52:12,214: INFO: common: created directory at: artifacts:]
+[2025-07-28 12:53:45,075: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2025-07-28 12:53:45,077: INFO: common: yaml file: params.yaml loaded successfully:]
+[2025-07-28 12:53:45,078: INFO: common: created directory at: artifacts:]
+[2025-07-28 13:05:19,098: WARNING: connectionpool: Retrying (JitteredRetry(total=4, connect=5, read=4, redirect=5, status=5)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))': /anujayavidmal2002/KidneyDiseaseEndtoEndDL.mlflow/api/2.0/mlflow/runs/create:]
+[2025-07-28 14:43:26,921: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2025-07-28 14:43:26,924: INFO: common: yaml file: params.yaml loaded successfully:]
+[2025-07-28 14:43:26,924: INFO: common: created directory at: artifacts:]
+[2025-07-28 14:43:34,353: INFO: common: json file saved at: scores.json:]
+[2025-07-28 14:45:24,257: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2025-07-28 14:45:24,260: INFO: common: yaml file: params.yaml loaded successfully:]
+[2025-07-28 14:45:24,261: INFO: common: created directory at: artifacts:]
+[2025-07-28 14:45:32,618: INFO: common: json file saved at: scores.json:]
+[2025-07-28 14:48:49,420: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2025-07-28 14:48:49,423: INFO: common: yaml file: params.yaml loaded successfully:]
+[2025-07-28 14:48:49,424: INFO: common: created directory at: artifacts:]
+[2025-07-28 14:48:57,188: INFO: common: json file saved at: scores.json:]
+[2025-07-28 14:52:42,236: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2025-07-28 14:52:42,238: INFO: common: yaml file: params.yaml loaded successfully:]
+[2025-07-28 14:52:42,239: INFO: common: created directory at: artifacts:]
+[2025-07-28 14:52:50,160: INFO: common: json file saved at: scores.json:]
+[2025-07-28 14:52:52,507: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.:]
+[2025-07-28 14:52:52,933: INFO: builder_impl: Assets written to: C:\Users\ASUS\AppData\Local\Temp\tmpcirxrbqn\model\data\model\assets:]
+[2025-07-28 14:55:01,950: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2025-07-28 14:55:01,952: INFO: common: yaml file: params.yaml loaded successfully:]
+[2025-07-28 14:55:01,953: INFO: common: created directory at: artifacts:]
+[2025-07-28 14:55:10,513: INFO: common: json file saved at: scores.json:]
+[2025-07-28 14:55:13,004: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.:]
+[2025-07-28 14:55:13,445: INFO: builder_impl: Assets written to: C:\Users\ASUS\AppData\Local\Temp\tmpk0i2bd4q\model\data\model\assets:]
+[2025-07-28 15:00:02,565: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2025-07-28 15:00:02,567: INFO: common: yaml file: params.yaml loaded successfully:]
+[2025-07-28 15:00:02,568: INFO: common: created directory at: artifacts:]
+[2025-07-28 15:00:10,336: INFO: common: json file saved at: scores.json:]
+[2025-07-28 15:00:12,852: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.:]
+[2025-07-28 15:00:13,304: INFO: builder_impl: Assets written to: C:\Users\ASUS\AppData\Local\Temp\tmpppv46bhw\model\data\model\assets:]
+[2025-07-28 15:44:41,062: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<:]
+[2025-07-28 15:44:41,063: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2025-07-28 15:44:41,066: INFO: common: yaml file: params.yaml loaded successfully:]
+[2025-07-28 15:44:41,066: INFO: common: created directory at: artifacts:]
+[2025-07-28 15:44:41,067: INFO: common: created directory at: artifacts/data_ingestion:]
+[2025-07-28 15:44:41,067: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip:]
+[2025-07-28 15:45:00,038: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip:]
+[2025-07-28 15:45:00,449: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x:]
+[2025-07-28 15:45:00,449: INFO: main: *******************:]
+[2025-07-28 15:45:00,449: INFO: main: >>>>>> stage Prepare base model started <<<<<<:]
+[2025-07-28 15:45:00,451: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2025-07-28 15:45:00,452: INFO: common: yaml file: params.yaml loaded successfully:]
+[2025-07-28 15:45:00,452: INFO: common: created directory at: artifacts:]
+[2025-07-28 15:45:00,453: INFO: common: created directory at: artifacts/prepare_base_model:]
+[2025-07-28 15:45:00,843: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.:]
+[2025-07-28 15:45:01,011: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x:]
+[2025-07-28 15:45:01,011: INFO: main: *******************:]
+[2025-07-28 15:45:01,011: INFO: main: >>>>>> stage Training started <<<<<<:]
+[2025-07-28 15:45:01,013: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2025-07-28 15:45:01,014: INFO: common: yaml file: params.yaml loaded successfully:]
+[2025-07-28 15:45:01,015: INFO: common: created directory at: artifacts:]
+[2025-07-28 15:45:01,015: INFO: common: created directory at: artifacts\training:]
+[2025-07-28 15:45:25,140: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x:]
+[2025-07-28 15:45:25,140: INFO: main: *******************:]
+[2025-07-28 15:45:25,140: INFO: main: >>>>>> stage Evaluation stage started <<<<<<:]
+[2025-07-28 15:45:25,142: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2025-07-28 15:45:25,144: INFO: common: yaml file: params.yaml loaded successfully:]
+[2025-07-28 15:45:25,144: INFO: common: created directory at: artifacts:]
+[2025-07-28 15:45:32,864: INFO: common: json file saved at: scores.json:]
+[2025-07-28 15:45:32,865: INFO: common: json file saved at: scores.json:]
+[2025-07-28 15:45:32,865: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x:]
+[2025-07-28 15:51:33,645: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<:]
+[2025-07-28 15:51:33,648: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2025-07-28 15:51:33,657: INFO: common: yaml file: params.yaml loaded successfully:]
+[2025-07-28 15:51:33,659: INFO: common: created directory at: artifacts:]
+[2025-07-28 15:51:33,659: INFO: common: created directory at: artifacts/data_ingestion:]
+[2025-07-28 15:51:33,660: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip:]
+[2025-07-28 15:51:44,831: ERROR: main: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002171C677A60>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')):]
+Traceback (most recent call last):
+  File "C:\Users\ASUS\miniconda3\envs\kidney\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\ASUS\miniconda3\envs\kidney\lib\site-packages\urllib3\util\connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\ASUS\miniconda3\envs\kidney\lib\socket.py", line 930, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ASUS\miniconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 716, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\ASUS\miniconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\ASUS\miniconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 1061, in _validate_conn
+    conn.connect()
+  File "C:\Users\ASUS\miniconda3\envs\kidney\lib\site-packages\urllib3\connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+  File "C:\Users\ASUS\miniconda3\envs\kidney\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000002171C677A60>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ASUS\miniconda3\envs\kidney\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "C:\Users\ASUS\miniconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 802, in urlopen
+    retries = retries.increment(
+  File "C:\Users\ASUS\miniconda3\envs\kidney\lib\site-packages\urllib3\util\retry.py", line 594, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002171C677A60>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 20, in <module>
+    data_ingestion.main()
+  File "D:\ML Projects\KidneyDiseaseDL\KidneyDiseaseEndtoEndDL\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.download_file()
+  File "D:\ML Projects\KidneyDiseaseDL\KidneyDiseaseEndtoEndDL\src\cnnClassifier\components\data_ingestion.py", line 33, in download_file
+    raise e
+  File "D:\ML Projects\KidneyDiseaseDL\KidneyDiseaseEndtoEndDL\src\cnnClassifier\components\data_ingestion.py", line 28, in download_file
+    gdown.download(prefix+file_id,zip_download_dir)
+  File "C:\Users\ASUS\miniconda3\envs\kidney\lib\site-packages\gdown\download.py", line 202, in download
+    res = sess.get(url, stream=True, verify=verify)
+  File "C:\Users\ASUS\miniconda3\envs\kidney\lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\Users\ASUS\miniconda3\envs\kidney\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\ASUS\miniconda3\envs\kidney\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\ASUS\miniconda3\envs\kidney\lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002171C677A60>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
